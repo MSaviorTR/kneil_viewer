@@ -1,0 +1,53 @@
+{
+  "cache_ver": "kneil_viewer 1.5",
+  "id": "camargo_walk_slow",
+  "name": "Camargo AB07: level-ground slow walking",
+  "source": "Camargo replay",
+  "group": "Camargo et al. 2021 (AB07 OpenSim IK)",
+  "cond": "Camargo et al. 2021 AB07 (levelground/ik/levelground_ccw_slow_01_01.mat)",
+  "in_sample": true,
+  "in_sample_label": "training data (in-sample: AB07)",
+  "env": {
+    "type": "floor",
+    "floor": -0.016159035475129736
+  },
+  "geom": {
+    "femur": 0.4195977653631285,
+    "tibia": 0.3918519553072625,
+    "pelvis": 0.9217877094972067,
+    "imu_side": "r"
+  },
+  "dur": 27.8799991607666,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "standing",
+      0.0,
+      7.52
+    ],
+    [
+      "walking",
+      7.52,
+      24.18
+    ],
+    [
+      "standing",
+      24.18,
+      25.28
+    ],
+    [
+      "walking",
+      25.28,
+      27.82
+    ],
+    [
+      "standing",
+      27.82,
+      27.9
+    ]
+  ],
+  "summary_hex": "02080000000000000000000000000000000000000000000000000000000000001500480300000000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

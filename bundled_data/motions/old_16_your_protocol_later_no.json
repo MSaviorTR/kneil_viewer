@@ -1,0 +1,33 @@
+{
+  "cache_ver": "kneil_viewer 1.3",
+  "id": "old_16_your_protocol_later_no",
+  "name": "Your protocol, later: no aid",
+  "source": "old viewer",
+  "group": "Spacer-period gait: personas from real strides (generator preview)",
+  "cond": "Persona: articulating spacer, weight-bearing as tolerated, no walking aid; moving at 0.71 m/s, average 0.74 m/s, 0 % paused. Real strides of AB07 (0.79 m/s on the treadmill) recomposed by the generator; implant signals from the current simulator. Preview: pauses, knee limits and impacts are model assumptions until validated.",
+  "in_sample": false,
+  "in_sample_label": "out-of-sample (recomposed AB07)",
+  "env": {
+    "type": "floor",
+    "floor": 0.007401126497118597
+  },
+  "geom": {
+    "femur": 0.4204438131308391,
+    "tibia": 0.39193239212905073,
+    "pelvis": 0.9210053663990991,
+    "imu_side": "r"
+  },
+  "dur": 17.1200008392334,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "walking",
+      0.0,
+      17.13
+    ]
+  ],
+  "summary_hex": "020800000000000000000000000000000000000000000000000000000000000013005d0300000000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

@@ -1,0 +1,77 @@
+{
+  "cache_ver": "kneil_viewer 1.5",
+  "id": "old_37_bed_locked_knee_static",
+  "name": "Bed: Locked knee (static spacer)",
+  "source": "old viewer",
+  "group": "Synthetic patients (simulator v1.6)",
+  "cond": "F, 72 y, 1.59 m, right knee; bed 46 cm; lies on the left side",
+  "in_sample": true,
+  "in_sample_label": "training data (in-sample: v1.6 sim)",
+  "env": {
+    "type": "bed",
+    "bed": 0.4612352872789737,
+    "floor": 0.0,
+    "x0": -0.9202234636871509,
+    "x1": 1.2005707946906246,
+    "w": 0.45
+  },
+  "geom": {
+    "femur": 0.40848745390770574,
+    "tibia": 0.39149201779857534,
+    "pelvis": 0.8883465299548112,
+    "imu_side": "r"
+  },
+  "dur": 64.27999877929688,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "lying_supine",
+      0.0,
+      11.07
+    ],
+    [
+      "rolling",
+      11.07,
+      14.29
+    ],
+    [
+      "lying_side",
+      14.29,
+      24.56
+    ],
+    [
+      "rolling",
+      24.56,
+      28.13
+    ],
+    [
+      "lying_supine",
+      28.13,
+      33.71
+    ],
+    [
+      "sit_up",
+      33.71,
+      42.06
+    ],
+    [
+      "sitting",
+      42.06,
+      51.98
+    ],
+    [
+      "lie_down",
+      51.98,
+      60.64
+    ],
+    [
+      "lying_supine",
+      60.64,
+      64.3
+    ]
+  ],
+  "summary_hex": "02080000000000000000000000000000000000000000000000000000040000000000000000000000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 4
+}

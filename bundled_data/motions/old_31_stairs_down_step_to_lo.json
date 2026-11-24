@@ -1,0 +1,82 @@
+{
+  "cache_ver": "kneil_viewer 1.5",
+  "id": "old_31_stairs_down_step_to_lo",
+  "name": "Stairs down (step-to): Locked knee",
+  "source": "old viewer",
+  "group": "Synthetic patients (simulator v1.6)",
+  "cond": "F, 70 y, 1.55 m, right knee locked; riser 14 cm, 2.6 s per step; locked leg leads down",
+  "in_sample": true,
+  "in_sample_label": "training data (in-sample: v1.6 sim)",
+  "env": {
+    "type": "stairs",
+    "up": false,
+    "treads": [
+      [
+        -0.9076,
+        0.0043,
+        0.0156
+      ],
+      [
+        0.0043,
+        0.2625,
+        -0.1208
+      ],
+      [
+        0.2625,
+        0.5549,
+        -0.2558
+      ],
+      [
+        0.5549,
+        0.8516,
+        -0.3908
+      ],
+      [
+        0.8516,
+        1.1453,
+        -0.5261
+      ],
+      [
+        1.1453,
+        1.4429,
+        -0.6611
+      ],
+      [
+        1.4429,
+        2.3903,
+        -0.7957
+      ]
+    ],
+    "run": 0.29510315697352757,
+    "floor": -0.7957418193992247
+  },
+  "geom": {
+    "femur": 0.40944108245265276,
+    "tibia": 0.36934672057566725,
+    "pelvis": 0.8649689896928425,
+    "imu_side": "r"
+  },
+  "dur": 17.5,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "standing",
+      0.0,
+      1.5
+    ],
+    [
+      "stairs_down",
+      1.5,
+      17.03
+    ],
+    [
+      "standing",
+      17.03,
+      17.52
+    ]
+  ],
+  "summary_hex": "02080000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

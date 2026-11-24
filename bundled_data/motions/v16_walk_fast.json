@@ -1,0 +1,34 @@
+{
+  "cache_ver": "kneil_viewer 1.5",
+  "id": "v16_walk_fast",
+  "name": "v1.6 generator: fast walking (~1.72 m/s)",
+  "source": "v1.6 generator",
+  "group": "Synthetic v1.6 generator (kneil_v1.py)",
+  "in_sample": true,
+  "in_sample_label": "training data (in-sample: v1.6 generator)",
+  "cond": "v1.6 make_trial: v=1.72 m/s, T=1.03 s, stride=1.78 m",
+  "env": {
+    "type": "floor",
+    "floor": -0.05621551861438676,
+    "aid": null
+  },
+  "geom": {
+    "femur": 0.44757094972067035,
+    "tibia": 0.4179754189944134,
+    "pelvis": 0.9832402234636871,
+    "imu_side": "r"
+  },
+  "dur": 19.979999542236328,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "walking",
+      0.0,
+      19.979999542236328
+    ]
+  ],
+  "summary_hex": "02080000000000000000000000000000000000000000000000000000000000001f00870400000000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

@@ -1,0 +1,82 @@
+{
+  "cache_ver": "kneil_viewer 1.5",
+  "id": "old_34_stairs_up_step_to_limp",
+  "name": "Stairs up (step-to): Limp, severity 0.8",
+  "source": "old viewer",
+  "group": "Synthetic patients (simulator v1.6)",
+  "cond": "F, 71 y, 1.63 m, right knee; riser 16 cm, 3.3 s per step; good leg leads up",
+  "in_sample": true,
+  "in_sample_label": "training data (in-sample: v1.6 sim)",
+  "env": {
+    "type": "stairs",
+    "up": true,
+    "treads": [
+      [
+        -1.0072,
+        -0.0614,
+        0.0185
+      ],
+      [
+        -0.0614,
+        0.235,
+        0.1732
+      ],
+      [
+        0.235,
+        0.5285,
+        0.3303
+      ],
+      [
+        0.5285,
+        0.8232,
+        0.4877
+      ],
+      [
+        0.8232,
+        1.1183,
+        0.6448
+      ],
+      [
+        1.1183,
+        1.4114,
+        0.8019
+      ],
+      [
+        1.4114,
+        2.3691,
+        0.9596
+      ]
+    ],
+    "run": 0.29437103768961564,
+    "floor": 0.018475797016739674
+  },
+  "geom": {
+    "femur": 0.43377989810501816,
+    "tibia": 0.3993256816184003,
+    "pelvis": 0.91172407021678,
+    "imu_side": "r"
+  },
+  "dur": 21.520000457763672,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "standing",
+      0.0,
+      1.5
+    ],
+    [
+      "stairs_up",
+      1.5,
+      21.05
+    ],
+    [
+      "standing",
+      21.05,
+      21.54
+    ]
+  ],
+  "summary_hex": "0208000000000000000000000000000000000000000000000000000000000000170000007b050000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

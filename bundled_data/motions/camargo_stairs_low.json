@@ -1,0 +1,101 @@
+{
+  "cache_ver": "kneil_viewer 1.5",
+  "id": "camargo_stairs_low",
+  "name": "Camargo AB07: stairs 10.2 cm up & down",
+  "source": "Camargo replay",
+  "group": "Camargo et al. 2021 (AB07 OpenSim IK)",
+  "cond": "Camargo et al. 2021 AB07 (stair/ik/stair_1_r_01_01.mat)",
+  "in_sample": true,
+  "in_sample_label": "training data (in-sample: AB07)",
+  "env": {
+    "type": "stairs",
+    "floor": -0.006252715335028976,
+    "up": true,
+    "treads": [
+      [
+        -2.7241,
+        -0.9895,
+        -0.0063
+      ],
+      [
+        -0.9895,
+        -0.7597,
+        0.1279
+      ],
+      [
+        -0.7597,
+        -0.3965,
+        0.2421
+      ],
+      [
+        -0.3965,
+        -0.1338,
+        0.3399
+      ],
+      [
+        -0.1338,
+        0.2398,
+        0.4648
+      ],
+      [
+        0.2398,
+        0.5363,
+        0.5709
+      ],
+      [
+        0.5363,
+        2.0523,
+        0.6939
+      ]
+    ]
+  },
+  "geom": {
+    "femur": 0.4195977653631285,
+    "tibia": 0.3918519553072625,
+    "pelvis": 0.9217877094972067,
+    "imu_side": "r"
+  },
+  "dur": 15.300000190734863,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "walking",
+      0.0,
+      1.42
+    ],
+    [
+      "stairs_up",
+      1.42,
+      5.2
+    ],
+    [
+      "walking",
+      5.2,
+      6.36
+    ],
+    [
+      "standing",
+      6.36,
+      9.2
+    ],
+    [
+      "walking",
+      9.2,
+      10.46
+    ],
+    [
+      "stairs_down",
+      10.46,
+      14.2
+    ],
+    [
+      "walking",
+      14.2,
+      15.32
+    ]
+  ],
+  "summary_hex": "02080000000000000000000000000000000000000000000000000000000000000c00570598030000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

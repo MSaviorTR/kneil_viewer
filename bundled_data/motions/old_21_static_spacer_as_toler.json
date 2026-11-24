@@ -1,0 +1,123 @@
+{
+  "cache_ver": "kneil_viewer 1.3",
+  "id": "old_21_static_spacer_as_toler",
+  "name": "Static spacer, as tolerated: crutches",
+  "source": "old viewer",
+  "group": "Spacer-period gait: personas from real strides (generator preview)",
+  "cond": "Persona: static spacer, weight-bearing as tolerated, crutches; moving at 0.45 m/s, average 0.40 m/s, 18 % paused. Real strides of AB07 (0.43 m/s on the treadmill) recomposed by the generator; implant signals from the current simulator. Preview: pauses, knee limits and impacts are model assumptions until validated.",
+  "in_sample": false,
+  "in_sample_label": "out-of-sample (recomposed AB07)",
+  "env": {
+    "type": "floor",
+    "floor": 0.021518740156487297
+  },
+  "geom": {
+    "femur": 0.4188973621306299,
+    "tibia": 0.39193621930104905,
+    "pelvis": 0.9235053101650766,
+    "imu_side": "r"
+  },
+  "dur": 17.479999542236328,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "walking",
+      0.0,
+      2.05
+    ],
+    [
+      "standing",
+      2.05,
+      2.42
+    ],
+    [
+      "walking",
+      2.42,
+      3.87
+    ],
+    [
+      "standing",
+      3.87,
+      4.18
+    ],
+    [
+      "walking",
+      4.18,
+      5.68
+    ],
+    [
+      "standing",
+      5.68,
+      6.0
+    ],
+    [
+      "walking",
+      6.0,
+      7.45
+    ],
+    [
+      "standing",
+      7.45,
+      7.85
+    ],
+    [
+      "walking",
+      7.85,
+      9.29
+    ],
+    [
+      "standing",
+      9.29,
+      9.61
+    ],
+    [
+      "walking",
+      9.61,
+      11.04
+    ],
+    [
+      "standing",
+      11.04,
+      11.32
+    ],
+    [
+      "walking",
+      11.32,
+      12.77
+    ],
+    [
+      "standing",
+      12.77,
+      13.26
+    ],
+    [
+      "walking",
+      13.26,
+      14.65
+    ],
+    [
+      "standing",
+      14.65,
+      14.85
+    ],
+    [
+      "walking",
+      14.85,
+      16.31
+    ],
+    [
+      "standing",
+      16.31,
+      16.74
+    ],
+    [
+      "walking",
+      16.74,
+      17.49
+    ]
+  ],
+  "summary_hex": "02080000000000000000000000000000000000000000000000000000000000000700b10200000000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

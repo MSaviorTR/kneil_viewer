@@ -1,0 +1,79 @@
+{
+  "cache_ver": "kneil_viewer 1.5",
+  "id": "camargo_ramp_gentle",
+  "name": "Camargo AB07: gentle ramp up & down (~5 deg)",
+  "source": "Camargo replay",
+  "group": "Camargo et al. 2021 (AB07 OpenSim IK)",
+  "cond": "Camargo et al. 2021 AB07 (ramp/ik/ramp_1_r_01_01.mat)",
+  "in_sample": true,
+  "in_sample_label": "training data (in-sample person AB07; ramps not trained)",
+  "env": {
+    "type": "ramp",
+    "floor": -0.03628174608220555,
+    "y_lo": -0.03628174608220555,
+    "y_hi": 0.5297802920208935,
+    "x_lo": -4.227234087923566,
+    "x_hi": 1.927171912438649,
+    "x_min": -5.477494975140104,
+    "x_max": 4.079983093733014
+  },
+  "geom": {
+    "femur": 0.4195977653631285,
+    "tibia": 0.3918519553072625,
+    "pelvis": 0.9217877094972067,
+    "imu_side": "r"
+  },
+  "dur": 19.139999389648438,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "walking",
+      0.0,
+      1.66
+    ],
+    [
+      "ramp_up",
+      1.66,
+      2.34
+    ],
+    [
+      "walking",
+      2.34,
+      7.54
+    ],
+    [
+      "standing",
+      7.54,
+      11.56
+    ],
+    [
+      "walking",
+      11.56,
+      14.72
+    ],
+    [
+      "ramp_down",
+      14.72,
+      14.98
+    ],
+    [
+      "walking",
+      14.98,
+      16.88
+    ],
+    [
+      "ramp_down",
+      16.88,
+      17.8
+    ],
+    [
+      "walking",
+      17.8,
+      19.16
+    ]
+  ],
+  "summary_hex": "020800000000000000000000000000000000000000000000000000000000000011002804b1030000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

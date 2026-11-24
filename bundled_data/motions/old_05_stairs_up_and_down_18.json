@@ -1,0 +1,122 @@
+{
+  "cache_ver": "kneil_viewer 1.5",
+  "id": "old_05_stairs_up_and_down_18",
+  "name": "Stairs up and down, 18 cm steps: real motion",
+  "source": "old viewer",
+  "group": "Real motion: Camargo et al. 2021, subject AB07 (pipeline v1.3)",
+  "cond": "Real person AB07 (male, 20 y, 1.65 m); motion from the dataset's inverse kinematics, implant signals from pipeline v1.3 (typical person: impact exponent 1.35, stair impacts 0.14x / 0.32x of walking); labels from kinematics. 6 steps of 17.8 cm, tread 33 cm (from foot contacts)",
+  "in_sample": true,
+  "in_sample_label": "training data (in-sample: AB07)",
+  "env": {
+    "type": "stairs",
+    "up": true,
+    "treads": [
+      [
+        -0.9052,
+        0.7743,
+        0.0041
+      ],
+      [
+        0.7743,
+        1.1445,
+        0.1902
+      ],
+      [
+        1.1445,
+        1.408,
+        0.3684
+      ],
+      [
+        1.408,
+        1.6568,
+        0.5565
+      ],
+      [
+        1.6568,
+        1.9359,
+        0.7344
+      ],
+      [
+        1.9359,
+        2.2917,
+        0.9236
+      ],
+      [
+        2.2917,
+        3.7928,
+        1.1136
+      ]
+    ],
+    "run": 0.327,
+    "floor": 0.004110178809327007
+  },
+  "geom": {
+    "femur": 0.42155070869350936,
+    "tibia": 0.3919094283122056,
+    "pelvis": 0.9220987681950182,
+    "imu_side": "r"
+  },
+  "dur": 15.920000076293945,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "walking",
+      0.0,
+      1.2
+    ],
+    [
+      "stairs_up",
+      1.2,
+      5.32
+    ],
+    [
+      "walking",
+      5.32,
+      6.31
+    ],
+    [
+      "standing",
+      6.31,
+      6.82
+    ],
+    [
+      "walking",
+      6.82,
+      8.08
+    ],
+    [
+      "standing",
+      8.08,
+      8.14
+    ],
+    [
+      "walking",
+      8.14,
+      9.02
+    ],
+    [
+      "standing",
+      9.02,
+      9.96
+    ],
+    [
+      "walking",
+      9.96,
+      11.06
+    ],
+    [
+      "stairs_down",
+      11.06,
+      14.88
+    ],
+    [
+      "walking",
+      14.88,
+      15.93
+    ]
+  ],
+  "summary_hex": "02080000000000000000000000000000000000000000000000000000000000000b0000002f040000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

@@ -1,0 +1,55 @@
+{
+  "cache_ver": "kneil_viewer 1.5",
+  "id": "old_25_sit_stand_limp_severit",
+  "name": "Sit/stand: Limp, severity 0.8",
+  "source": "old viewer",
+  "group": "Synthetic patients (simulator v1.6)",
+  "cond": "M, 70 y, 1.70 m, right knee; sit-to-stand 3.8 s",
+  "in_sample": true,
+  "in_sample_label": "training data (in-sample: v1.6 sim)",
+  "env": {
+    "type": "chair",
+    "floor": 0.01932250279513869,
+    "seat": 0.4880866096284027,
+    "front": -0.20472879455223472
+  },
+  "geom": {
+    "femur": 0.44621183310172313,
+    "tibia": 0.4090110022970042,
+    "pelvis": 0.9467903806097331,
+    "imu_side": "r"
+  },
+  "dur": 18.68000030517578,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "sitting",
+      0.0,
+      3.91
+    ],
+    [
+      "sit_to_stand",
+      3.91,
+      7.7
+    ],
+    [
+      "standing",
+      7.7,
+      11.04
+    ],
+    [
+      "stand_to_sit",
+      11.04,
+      15.47
+    ],
+    [
+      "sitting",
+      15.47,
+      18.7
+    ]
+  ],
+  "summary_hex": "0208000000000000000000000000000000000000000000000100000000003c000000000000000000",
+  "n_sts_total": 1,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

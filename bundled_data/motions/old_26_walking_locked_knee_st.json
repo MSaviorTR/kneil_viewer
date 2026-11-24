@@ -1,0 +1,33 @@
+{
+  "cache_ver": "kneil_viewer 1.5",
+  "id": "old_26_walking_locked_knee_st",
+  "name": "Walking: Locked knee (static spacer)",
+  "source": "old viewer",
+  "group": "Synthetic patients (simulator v1.6)",
+  "cond": "F, 70 y, 1.55 m, right knee; 0.71 m/s",
+  "in_sample": true,
+  "in_sample_label": "training data (in-sample: v1.6 sim)",
+  "env": {
+    "type": "floor",
+    "floor": -0.05477805983761536
+  },
+  "geom": {
+    "femur": 0.4039529675593435,
+    "tibia": 0.3680319279571367,
+    "pelvis": 0.8664288540053328,
+    "imu_side": "r"
+  },
+  "dur": 19.959999084472656,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "walking",
+      0.0,
+      19.98
+    ]
+  ],
+  "summary_hex": "02080000000000000000000000000000000000000000000000000000000000001600ad0300000000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

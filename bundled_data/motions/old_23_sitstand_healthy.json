@@ -1,0 +1,55 @@
+{
+  "cache_ver": "kneil_viewer 1.3",
+  "id": "old_23_sitstand_healthy",
+  "name": "Sit/stand: Healthy older adult",
+  "source": "old viewer",
+  "group": "Synthetic patients (simulator v1.6)",
+  "cond": "F, 70 y, 1.68 m, right knee; sit-to-stand 2.6 s",
+  "in_sample": true,
+  "in_sample_label": "training data (in-sample: v1.6 sim)",
+  "env": {
+    "type": "chair",
+    "floor": 0.016901231607086502,
+    "seat": 0.47405309425227726,
+    "front": -0.16253813182094484
+  },
+  "geom": {
+    "femur": 0.44263416045307663,
+    "tibia": 0.3985599076675927,
+    "pelvis": 0.9351016104787487,
+    "imu_side": "r"
+  },
+  "dur": 15.979999542236328,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "sitting",
+      0.0,
+      3.79
+    ],
+    [
+      "sit_to_stand",
+      3.79,
+      6.36
+    ],
+    [
+      "standing",
+      6.36,
+      9.91
+    ],
+    [
+      "stand_to_sit",
+      9.91,
+      12.67
+    ],
+    [
+      "sitting",
+      12.67,
+      16.0
+    ]
+  ],
+  "summary_hex": "02080000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

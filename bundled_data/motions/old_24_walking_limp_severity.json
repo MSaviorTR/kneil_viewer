@@ -1,0 +1,33 @@
+{
+  "cache_ver": "kneil_viewer 1.5",
+  "id": "old_24_walking_limp_severity",
+  "name": "Walking: Limp, severity 0.8",
+  "source": "old viewer",
+  "group": "Synthetic patients (simulator v1.6)",
+  "cond": "M, 70 y, 1.70 m, right knee; 0.78 m/s",
+  "in_sample": true,
+  "in_sample_label": "training data (in-sample: v1.6 sim)",
+  "env": {
+    "type": "floor",
+    "floor": -0.05374562274226664
+  },
+  "geom": {
+    "femur": 0.4301860062810039,
+    "tibia": 0.4093971177231222,
+    "pelvis": 0.9494742721619115,
+    "imu_side": "r"
+  },
+  "dur": 19.959999084472656,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "walking",
+      0.0,
+      19.98
+    ]
+  ],
+  "summary_hex": "02080000000000000000000000000000000000000000000000000000000000001700940300000000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

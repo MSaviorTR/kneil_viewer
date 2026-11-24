@@ -1,0 +1,55 @@
+{
+  "cache_ver": "kneil_viewer 1.5",
+  "id": "old_27_sit_stand_locked_knee",
+  "name": "Sit/stand: Locked knee (static spacer)",
+  "source": "old viewer",
+  "group": "Synthetic patients (simulator v1.6)",
+  "cond": "F, 70 y, 1.55 m, right knee; sit-to-stand 4.1 s",
+  "in_sample": true,
+  "in_sample_label": "training data (in-sample: v1.6 sim)",
+  "env": {
+    "type": "chair",
+    "floor": 0.008168294715399309,
+    "seat": 0.44533063517039906,
+    "front": -0.21332532820024336
+  },
+  "geom": {
+    "femur": 0.40400495046471896,
+    "tibia": 0.3684019543922101,
+    "pelvis": 0.8649689896928425,
+    "imu_side": "r"
+  },
+  "dur": 19.81999969482422,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "sitting",
+      0.0,
+      3.84
+    ],
+    [
+      "sit_to_stand",
+      3.84,
+      7.91
+    ],
+    [
+      "standing",
+      7.91,
+      11.65
+    ],
+    [
+      "stand_to_sit",
+      11.65,
+      16.5
+    ],
+    [
+      "sitting",
+      16.5,
+      19.84
+    ]
+  ],
+  "summary_hex": "02080000000000000000000000000000000000000000000001000000000032000000000000000000",
+  "n_sts_total": 1,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

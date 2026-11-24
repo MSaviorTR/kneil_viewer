@@ -1,0 +1,5 @@
+numpy
+scipy
+matplotlib
+mujoco==3.17.*
+pillow

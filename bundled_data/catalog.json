@@ -1,0 +1,919 @@
+[
+  {
+    "id": "old_00_treadmill_walking_0_50",
+    "name": "Treadmill walking, 0.50 m/s (slow): real motion",
+    "source": "old viewer",
+    "group": "Real motion: Camargo et al. 2021, subject AB07 (pipeline v1.3)",
+    "dur": 15.98,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "old",
+    "index": 0,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_01_treadmill_walking_1_20",
+    "name": "Treadmill walking, 1.20 m/s (normal): real motion",
+    "source": "old viewer",
+    "group": "Real motion: Camargo et al. 2021, subject AB07 (pipeline v1.3)",
+    "dur": 16.0,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "old",
+    "index": 1,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_02_treadmill_walking_1_55",
+    "name": "Treadmill walking, 1.55 m/s (fast): real motion",
+    "source": "old viewer",
+    "group": "Real motion: Camargo et al. 2021, subject AB07 (pipeline v1.3)",
+    "dur": 16.0,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "old",
+    "index": 2,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_03_level_ground_walking_w",
+    "name": "Level-ground walking with a turn: real motion",
+    "source": "old viewer",
+    "group": "Real motion: Camargo et al. 2021, subject AB07 (pipeline v1.3)",
+    "dur": 23.76,
+    "true_labels": [
+      "standing",
+      "walking"
+    ],
+    "kind": "old",
+    "index": 3,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_04_stairs_up_and_down_10",
+    "name": "Stairs up and down, 10 cm steps: real motion",
+    "source": "old viewer",
+    "group": "Real motion: Camargo et al. 2021, subject AB07 (pipeline v1.3)",
+    "dur": 15.2,
+    "true_labels": [
+      "stairs_down",
+      "stairs_up",
+      "standing",
+      "walking"
+    ],
+    "kind": "old",
+    "index": 4,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_05_stairs_up_and_down_18",
+    "name": "Stairs up and down, 18 cm steps: real motion",
+    "source": "old viewer",
+    "group": "Real motion: Camargo et al. 2021, subject AB07 (pipeline v1.3)",
+    "dur": 15.92,
+    "true_labels": [
+      "stairs_down",
+      "stairs_up",
+      "standing",
+      "walking"
+    ],
+    "kind": "old",
+    "index": 5,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_06_older_adult_0_60_m_s_s",
+    "name": "Older adult 0.60 m/s (subject 26, SPPB 8.0)",
+    "source": "old viewer",
+    "group": "Real older adults: Caicedo et al. 2020 (markers, virtual implant)",
+    "dur": 8.52,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "old",
+    "index": 6,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: Caicedo)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_07_older_adult_0_96_m_s_s",
+    "name": "Older adult 0.96 m/s (subject 14, SPPB 10.0)",
+    "source": "old viewer",
+    "group": "Real older adults: Caicedo et al. 2020 (markers, virtual implant)",
+    "dur": 5.18,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "old",
+    "index": 7,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: Caicedo)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_08_older_adult_1_04_m_s_s",
+    "name": "Older adult 1.04 m/s (subject 29, SPPB 10.0)",
+    "source": "old viewer",
+    "group": "Real older adults: Caicedo et al. 2020 (markers, virtual implant)",
+    "dur": 4.78,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "old",
+    "index": 8,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: Caicedo)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_09_older_adult_1_09_m_s_s",
+    "name": "Older adult 1.09 m/s (subject 22, SPPB 12.0)",
+    "source": "old viewer",
+    "group": "Real older adults: Caicedo et al. 2020 (markers, virtual implant)",
+    "dur": 4.8,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "old",
+    "index": 9,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: Caicedo)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_10_older_adult_1_15_m_s_s",
+    "name": "Older adult 1.15 m/s (subject 22, SPPB 12.0)",
+    "source": "old viewer",
+    "group": "Real older adults: Caicedo et al. 2020 (markers, virtual implant)",
+    "dur": 4.5,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "old",
+    "index": 10,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: Caicedo)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_11_older_adult_1_25_m_s_s",
+    "name": "Older adult 1.25 m/s (subject 35, SPPB 11.0)",
+    "source": "old viewer",
+    "group": "Real older adults: Caicedo et al. 2020 (markers, virtual implant)",
+    "dur": 3.74,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "old",
+    "index": 11,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: Caicedo)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_12_older_adult_1_45_m_s_s",
+    "name": "Older adult 1.45 m/s (subject 24, SPPB 12.0)",
+    "source": "old viewer",
+    "group": "Real older adults: Caicedo et al. 2020 (markers, virtual implant)",
+    "dur": 3.8,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "old",
+    "index": 12,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: Caicedo)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_13_older_adult_0_99_m_s_s",
+    "name": "Older adult 0.99 m/s (subject 5, SPPB 8.0)",
+    "source": "old viewer",
+    "group": "Real older adults: Caicedo et al. 2020 (markers, virtual implant)",
+    "dur": 3.78,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "old",
+    "index": 13,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: Caicedo)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_14_your_protocol_early_wa",
+    "name": "Your protocol, early: walker",
+    "source": "old viewer",
+    "group": "Spacer-period gait: personas from real strides (generator preview)",
+    "dur": 29.98,
+    "true_labels": [
+      "standing",
+      "walking"
+    ],
+    "kind": "old",
+    "index": 14,
+    "in_sample": false,
+    "in_sample_label": "out-of-sample (recomposed AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_15_your_protocol_crutches",
+    "name": "Your protocol: crutches",
+    "source": "old viewer",
+    "group": "Spacer-period gait: personas from real strides (generator preview)",
+    "dur": 16.2,
+    "true_labels": [
+      "standing",
+      "walking"
+    ],
+    "kind": "old",
+    "index": 15,
+    "in_sample": false,
+    "in_sample_label": "out-of-sample (recomposed AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_16_your_protocol_later_no",
+    "name": "Your protocol, later: no aid",
+    "source": "old viewer",
+    "group": "Spacer-period gait: personas from real strides (generator preview)",
+    "dur": 17.12,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "old",
+    "index": 16,
+    "in_sample": false,
+    "in_sample_label": "out-of-sample (recomposed AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_17_partial_weight_bearing",
+    "name": "Partial weight-bearing: crutches",
+    "source": "old viewer",
+    "group": "Spacer-period gait: personas from real strides (generator preview)",
+    "dur": 16.6,
+    "true_labels": [
+      "standing",
+      "walking"
+    ],
+    "kind": "old",
+    "index": 17,
+    "in_sample": false,
+    "in_sample_label": "out-of-sample (recomposed AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_18_toe_touch_walker",
+    "name": "Toe-touch: walker",
+    "source": "old viewer",
+    "group": "Spacer-period gait: personas from real strides (generator preview)",
+    "dur": 29.98,
+    "true_labels": [
+      "standing",
+      "walking"
+    ],
+    "kind": "old",
+    "index": 18,
+    "in_sample": false,
+    "in_sample_label": "out-of-sample (recomposed AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_19_non_weight_bearing_wal",
+    "name": "Non-weight-bearing: walker (leg held)",
+    "source": "old viewer",
+    "group": "Spacer-period gait: personas from real strides (generator preview)",
+    "dur": 29.98,
+    "true_labels": [
+      "standing",
+      "walking"
+    ],
+    "kind": "old",
+    "index": 19,
+    "in_sample": false,
+    "in_sample_label": "out-of-sample (recomposed AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_20_static_spacer_partial",
+    "name": "Static spacer, partial: walker",
+    "source": "old viewer",
+    "group": "Spacer-period gait: personas from real strides (generator preview)",
+    "dur": 29.98,
+    "true_labels": [
+      "standing",
+      "walking"
+    ],
+    "kind": "old",
+    "index": 20,
+    "in_sample": false,
+    "in_sample_label": "out-of-sample (recomposed AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_21_static_spacer_as_toler",
+    "name": "Static spacer, as tolerated: crutches",
+    "source": "old viewer",
+    "group": "Spacer-period gait: personas from real strides (generator preview)",
+    "dur": 17.48,
+    "true_labels": [
+      "standing",
+      "walking"
+    ],
+    "kind": "old",
+    "index": 21,
+    "in_sample": false,
+    "in_sample_label": "out-of-sample (recomposed AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_22_walk_healthy",
+    "name": "Walking: Healthy older adult",
+    "source": "old viewer",
+    "group": "Synthetic patients (simulator v1.6)",
+    "dur": 19.98,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "old",
+    "index": 22,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 sim)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_23_sitstand_healthy",
+    "name": "Sit/stand: Healthy older adult",
+    "source": "old viewer",
+    "group": "Synthetic patients (simulator v1.6)",
+    "dur": 16.0,
+    "true_labels": [
+      "sit_to_stand",
+      "sitting",
+      "stand_to_sit",
+      "standing"
+    ],
+    "kind": "old",
+    "index": 23,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 sim)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_24_walking_limp_severity",
+    "name": "Walking: Limp, severity 0.8",
+    "source": "old viewer",
+    "group": "Synthetic patients (simulator v1.6)",
+    "dur": 19.98,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "old",
+    "index": 24,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 sim)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_25_sit_stand_limp_severit",
+    "name": "Sit/stand: Limp, severity 0.8",
+    "source": "old viewer",
+    "group": "Synthetic patients (simulator v1.6)",
+    "dur": 18.7,
+    "true_labels": [
+      "sit_to_stand",
+      "sitting",
+      "stand_to_sit",
+      "standing"
+    ],
+    "kind": "old",
+    "index": 25,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 sim)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_26_walking_locked_knee_st",
+    "name": "Walking: Locked knee (static spacer)",
+    "source": "old viewer",
+    "group": "Synthetic patients (simulator v1.6)",
+    "dur": 19.98,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "old",
+    "index": 26,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 sim)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_27_sit_stand_locked_knee",
+    "name": "Sit/stand: Locked knee (static spacer)",
+    "source": "old viewer",
+    "group": "Synthetic patients (simulator v1.6)",
+    "dur": 19.84,
+    "true_labels": [
+      "sit_to_stand",
+      "sitting",
+      "stand_to_sit",
+      "standing"
+    ],
+    "kind": "old",
+    "index": 27,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 sim)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_28_stairs_up_healthy",
+    "name": "Stairs up: Healthy older adult",
+    "source": "old viewer",
+    "group": "Synthetic patients (simulator v1.6)",
+    "dur": 19.98,
+    "true_labels": [
+      "stairs_up"
+    ],
+    "kind": "old",
+    "index": 28,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 sim)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_29_stairs_down_healthy",
+    "name": "Stairs down: Healthy older adult",
+    "source": "old viewer",
+    "group": "Synthetic patients (simulator v1.6)",
+    "dur": 19.98,
+    "true_labels": [
+      "stairs_down"
+    ],
+    "kind": "old",
+    "index": 29,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 sim)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_30_stairs_up_step_to_lock",
+    "name": "Stairs up (step-to): Locked knee",
+    "source": "old viewer",
+    "group": "Synthetic patients (simulator v1.6)",
+    "dur": 19.22,
+    "true_labels": [
+      "stairs_up",
+      "standing"
+    ],
+    "kind": "old",
+    "index": 30,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 sim)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_31_stairs_down_step_to_lo",
+    "name": "Stairs down (step-to): Locked knee",
+    "source": "old viewer",
+    "group": "Synthetic patients (simulator v1.6)",
+    "dur": 17.52,
+    "true_labels": [
+      "stairs_down",
+      "standing"
+    ],
+    "kind": "old",
+    "index": 31,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 sim)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_32_stairs_up_limp_severit",
+    "name": "Stairs up: Limp, severity 0.4",
+    "source": "old viewer",
+    "group": "Synthetic patients (simulator v1.6)",
+    "dur": 19.98,
+    "true_labels": [
+      "stairs_up"
+    ],
+    "kind": "old",
+    "index": 32,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 sim)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_33_stairs_down_limp_sever",
+    "name": "Stairs down: Limp, severity 0.4",
+    "source": "old viewer",
+    "group": "Synthetic patients (simulator v1.6)",
+    "dur": 19.98,
+    "true_labels": [
+      "stairs_down"
+    ],
+    "kind": "old",
+    "index": 33,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 sim)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_34_stairs_up_step_to_limp",
+    "name": "Stairs up (step-to): Limp, severity 0.8",
+    "source": "old viewer",
+    "group": "Synthetic patients (simulator v1.6)",
+    "dur": 21.54,
+    "true_labels": [
+      "stairs_up",
+      "standing"
+    ],
+    "kind": "old",
+    "index": 34,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 sim)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_35_stairs_down_step_to_li",
+    "name": "Stairs down (step-to): Limp, severity 0.8",
+    "source": "old viewer",
+    "group": "Synthetic patients (simulator v1.6)",
+    "dur": 19.64,
+    "true_labels": [
+      "stairs_down",
+      "standing"
+    ],
+    "kind": "old",
+    "index": 35,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 sim)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_36_bed_healthy",
+    "name": "Bed: Healthy older adult",
+    "source": "old viewer",
+    "group": "Synthetic patients (simulator v1.6)",
+    "dur": 53.92,
+    "true_labels": [
+      "lie_down",
+      "lying_side",
+      "lying_supine",
+      "rolling",
+      "sit_up",
+      "sitting"
+    ],
+    "kind": "old",
+    "index": 36,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 sim)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "old_37_bed_locked_knee_static",
+    "name": "Bed: Locked knee (static spacer)",
+    "source": "old viewer",
+    "group": "Synthetic patients (simulator v1.6)",
+    "dur": 64.3,
+    "true_labels": [
+      "lie_down",
+      "lying_side",
+      "lying_supine",
+      "rolling",
+      "sit_up",
+      "sitting"
+    ],
+    "kind": "old",
+    "index": 37,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 sim)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "camargo_walk_slow",
+    "name": "Camargo AB07: level-ground slow walking",
+    "source": "Camargo replay",
+    "group": "Camargo et al. 2021 (AB07 OpenSim IK)",
+    "dur": 27.9,
+    "true_labels": [
+      "levelground"
+    ],
+    "kind": "camargo",
+    "suf": "levelground/ik/levelground_ccw_slow_01_01.mat",
+    "mode": "levelground",
+    "tslice": null,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "camargo_walk_normal",
+    "name": "Camargo AB07: level-ground normal walking",
+    "source": "Camargo replay",
+    "group": "Camargo et al. 2021 (AB07 OpenSim IK)",
+    "dur": 23.9,
+    "true_labels": [
+      "levelground"
+    ],
+    "kind": "camargo",
+    "suf": "levelground/ik/levelground_ccw_normal_01_01.mat",
+    "mode": "levelground",
+    "tslice": null,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "camargo_walk_fast",
+    "name": "Camargo AB07: level-ground fast walking",
+    "source": "Camargo replay",
+    "group": "Camargo et al. 2021 (AB07 OpenSim IK)",
+    "dur": 23.3,
+    "true_labels": [
+      "levelground"
+    ],
+    "kind": "camargo",
+    "suf": "levelground/ik/levelground_ccw_fast_01_01.mat",
+    "mode": "levelground",
+    "tslice": null,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "camargo_treadmill_fast",
+    "name": "Camargo AB07: treadmill fast walking (~1.7 m/s)",
+    "source": "Camargo replay",
+    "group": "Camargo et al. 2021 (AB07 OpenSim IK)",
+    "dur": 20.0,
+    "true_labels": [
+      "treadmill"
+    ],
+    "kind": "camargo",
+    "suf": "treadmill/ik/treadmill_07_01.mat",
+    "mode": "treadmill",
+    "tslice": [
+      55.0,
+      75.0
+    ],
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "camargo_ramp_gentle",
+    "name": "Camargo AB07: gentle ramp up & down (~5 deg)",
+    "source": "Camargo replay",
+    "group": "Camargo et al. 2021 (AB07 OpenSim IK)",
+    "dur": 19.1,
+    "true_labels": [
+      "ramp"
+    ],
+    "kind": "camargo",
+    "suf": "ramp/ik/ramp_1_r_01_01.mat",
+    "mode": "ramp",
+    "tslice": null,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample person AB07; ramps not trained)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "camargo_ramp_steep",
+    "name": "Camargo AB07: steep ramp up & down (~11 deg)",
+    "source": "Camargo replay",
+    "group": "Camargo et al. 2021 (AB07 OpenSim IK)",
+    "dur": 19.2,
+    "true_labels": [
+      "ramp"
+    ],
+    "kind": "camargo",
+    "suf": "ramp/ik/ramp_5_r_01_01.mat",
+    "mode": "ramp",
+    "tslice": null,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample person AB07; ramps not trained)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "camargo_stairs_low",
+    "name": "Camargo AB07: stairs 10.2 cm up & down",
+    "source": "Camargo replay",
+    "group": "Camargo et al. 2021 (AB07 OpenSim IK)",
+    "dur": 15.3,
+    "true_labels": [
+      "stair"
+    ],
+    "kind": "camargo",
+    "suf": "stair/ik/stair_1_r_01_01.mat",
+    "mode": "stair",
+    "tslice": null,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "camargo_stairs_high",
+    "name": "Camargo AB07: stairs 17.8 cm up & down",
+    "source": "Camargo replay",
+    "group": "Camargo et al. 2021 (AB07 OpenSim IK)",
+    "dur": 16.0,
+    "true_labels": [
+      "stair"
+    ],
+    "kind": "camargo",
+    "suf": "stair/ik/stair_4_r_01_01.mat",
+    "mode": "stair",
+    "tslice": null,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: AB07)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "v16_walk_healthy",
+    "name": "v1.6 generator: healthy older adult walking (1.25 m/s)",
+    "source": "v1.6 generator",
+    "group": "Synthetic v1.6 generator (kneil_v1.py)",
+    "dur": 20.0,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "v16",
+    "subj": {
+      "sex": "F",
+      "age": 70.0,
+      "height": 1.68,
+      "side": "r",
+      "speed_factor": 1.0,
+      "stride_factor": 1.0,
+      "femur_dev": 0.0,
+      "tibia_dev": 0.0,
+      "lr_dev": 0.0,
+      "peak_dev": 0.0
+    },
+    "cond": {
+      "severity": 0.0
+    },
+    "seed": 101,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 generator)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "v16_walk_fast",
+    "name": "v1.6 generator: fast walking (~1.72 m/s)",
+    "source": "v1.6 generator",
+    "group": "Synthetic v1.6 generator (kneil_v1.py)",
+    "dur": 20.0,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "v16",
+    "subj": {
+      "sex": "M",
+      "age": 45.0,
+      "height": 1.76,
+      "side": "r",
+      "speed_factor": 1.2,
+      "stride_factor": 1.05,
+      "femur_dev": 0.0,
+      "tibia_dev": 0.0,
+      "lr_dev": 0.0,
+      "peak_dev": 0.0
+    },
+    "cond": {
+      "severity": 0.0
+    },
+    "seed": 102,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 generator)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "v16_walk_limp_mild",
+    "name": "v1.6 generator: mild limp walking (severity 0.4)",
+    "source": "v1.6 generator",
+    "group": "Synthetic v1.6 generator (kneil_v1.py)",
+    "dur": 20.0,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "v16",
+    "subj": {
+      "sex": "F",
+      "age": 68.0,
+      "height": 1.64,
+      "side": "r",
+      "speed_factor": 1.0,
+      "stride_factor": 1.0,
+      "femur_dev": 0.0,
+      "tibia_dev": 0.0,
+      "lr_dev": 0.0,
+      "peak_dev": 0.0
+    },
+    "cond": {
+      "severity": 0.4
+    },
+    "seed": 103,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 generator)",
+    "available": true,
+    "unavailable_reason": ""
+  },
+  {
+    "id": "v16_walk_crutches",
+    "name": "v1.6 generator: walking with crutches (severity 0.5)",
+    "source": "v1.6 generator",
+    "group": "Synthetic v1.6 generator (kneil_v1.py)",
+    "dur": 20.0,
+    "true_labels": [
+      "walking"
+    ],
+    "kind": "v16",
+    "subj": {
+      "sex": "M",
+      "age": 70.0,
+      "height": 1.72,
+      "side": "r",
+      "speed_factor": 1.0,
+      "stride_factor": 1.0,
+      "femur_dev": 0.0,
+      "tibia_dev": 0.0,
+      "lr_dev": 0.0,
+      "peak_dev": 0.0
+    },
+    "cond": {
+      "severity": 0.5,
+      "aid": "crutches"
+    },
+    "seed": 104,
+    "in_sample": true,
+    "in_sample_label": "training data (in-sample: v1.6 generator)",
+    "available": true,
+    "unavailable_reason": ""
+  }
+]

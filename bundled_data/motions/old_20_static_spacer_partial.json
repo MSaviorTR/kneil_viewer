@@ -1,0 +1,203 @@
+{
+  "cache_ver": "kneil_viewer 1.3",
+  "id": "old_20_static_spacer_partial",
+  "name": "Static spacer, partial: walker",
+  "source": "old viewer",
+  "group": "Spacer-period gait: personas from real strides (generator preview)",
+  "cond": "Persona: static spacer, partial weight-bearing, walker; moving at 0.33 m/s, average 0.22 m/s, 33 % paused. Real strides of AB07 (0.43 m/s on the treadmill) recomposed by the generator; implant signals from the current simulator. Preview: pauses, knee limits and impacts are model assumptions until validated.",
+  "in_sample": false,
+  "in_sample_label": "out-of-sample (recomposed AB07)",
+  "env": {
+    "type": "floor",
+    "floor": 0.01755168632362899
+  },
+  "geom": {
+    "femur": 0.4191222971840055,
+    "tibia": 0.3918800836990826,
+    "pelvis": 0.9235053101650766,
+    "imu_side": "r"
+  },
+  "dur": 29.979999542236328,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "walking",
+      0.0,
+      2.07
+    ],
+    [
+      "standing",
+      2.07,
+      2.43
+    ],
+    [
+      "walking",
+      2.43,
+      3.46
+    ],
+    [
+      "standing",
+      3.46,
+      4.76
+    ],
+    [
+      "walking",
+      4.76,
+      5.88
+    ],
+    [
+      "standing",
+      5.88,
+      6.06
+    ],
+    [
+      "walking",
+      6.06,
+      7.09
+    ],
+    [
+      "standing",
+      7.09,
+      7.69
+    ],
+    [
+      "walking",
+      7.69,
+      8.82
+    ],
+    [
+      "standing",
+      8.82,
+      9.28
+    ],
+    [
+      "walking",
+      9.28,
+      10.35
+    ],
+    [
+      "standing",
+      10.35,
+      11.03
+    ],
+    [
+      "walking",
+      11.03,
+      12.14
+    ],
+    [
+      "standing",
+      12.14,
+      12.35
+    ],
+    [
+      "walking",
+      12.35,
+      13.38
+    ],
+    [
+      "standing",
+      13.38,
+      14.37
+    ],
+    [
+      "walking",
+      14.37,
+      15.51
+    ],
+    [
+      "standing",
+      15.51,
+      15.76
+    ],
+    [
+      "walking",
+      15.76,
+      16.76
+    ],
+    [
+      "standing",
+      16.76,
+      18.06
+    ],
+    [
+      "walking",
+      18.06,
+      19.18
+    ],
+    [
+      "standing",
+      19.18,
+      19.35
+    ],
+    [
+      "walking",
+      19.35,
+      20.33
+    ],
+    [
+      "standing",
+      20.33,
+      21.2
+    ],
+    [
+      "walking",
+      21.2,
+      22.35
+    ],
+    [
+      "standing",
+      22.35,
+      22.73
+    ],
+    [
+      "walking",
+      22.73,
+      23.7
+    ],
+    [
+      "standing",
+      23.7,
+      24.44
+    ],
+    [
+      "walking",
+      24.44,
+      25.54
+    ],
+    [
+      "standing",
+      25.54,
+      25.82
+    ],
+    [
+      "walking",
+      25.82,
+      26.79
+    ],
+    [
+      "standing",
+      26.79,
+      27.64
+    ],
+    [
+      "walking",
+      27.64,
+      28.72
+    ],
+    [
+      "standing",
+      28.72,
+      29.04
+    ],
+    [
+      "walking",
+      29.04,
+      29.99
+    ]
+  ],
+  "summary_hex": "02080000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

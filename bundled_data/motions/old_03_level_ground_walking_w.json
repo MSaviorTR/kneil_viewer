@@ -1,0 +1,53 @@
+{
+  "cache_ver": "kneil_viewer 1.5",
+  "id": "old_03_level_ground_walking_w",
+  "name": "Level-ground walking with a turn: real motion",
+  "source": "old viewer",
+  "group": "Real motion: Camargo et al. 2021, subject AB07 (pipeline v1.3)",
+  "cond": "Real person AB07 (male, 20 y, 1.65 m); motion from the dataset's inverse kinematics, implant signals from pipeline v1.3 (typical person: impact exponent 1.35, stair impacts 0.14x / 0.32x of walking); labels from kinematics.",
+  "in_sample": true,
+  "in_sample_label": "training data (in-sample: AB07)",
+  "env": {
+    "type": "floor",
+    "floor": 0.011015657210583778
+  },
+  "geom": {
+    "femur": 0.42015592343795416,
+    "tibia": 0.39193366785720263,
+    "pelvis": 0.9217467973406193,
+    "imu_side": "r"
+  },
+  "dur": 23.760000228881836,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "walking",
+      0.0,
+      1.52
+    ],
+    [
+      "standing",
+      1.52,
+      7.43
+    ],
+    [
+      "walking",
+      7.43,
+      21.62
+    ],
+    [
+      "standing",
+      21.62,
+      22.48
+    ],
+    [
+      "walking",
+      22.48,
+      23.78
+    ]
+  ],
+  "summary_hex": "02080000000000000000000000000000000000000000000000000000000000001200930300000000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

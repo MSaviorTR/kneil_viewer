@@ -1,0 +1,34 @@
+{
+  "cache_ver": "kneil_viewer 1.5",
+  "id": "old_02_treadmill_walking_1_55",
+  "name": "Treadmill walking, 1.55 m/s (fast): real motion",
+  "source": "old viewer",
+  "group": "Real motion: Camargo et al. 2021, subject AB07 (pipeline v1.3)",
+  "cond": "Real person AB07 (male, 20 y, 1.65 m); motion from the dataset's inverse kinematics, implant signals from pipeline v1.3 (typical person: impact exponent 1.35, stair impacts 0.14x / 0.32x of walking); labels from kinematics.",
+  "in_sample": true,
+  "in_sample_label": "training data (in-sample: AB07)",
+  "env": {
+    "type": "treadmill",
+    "floor": 0.006930137169473792,
+    "v": 1.55
+  },
+  "geom": {
+    "femur": 0.4220023696615932,
+    "tibia": 0.3918890149009028,
+    "pelvis": 0.9221172892553112,
+    "imu_side": "r"
+  },
+  "dur": 15.979999542236328,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "walking",
+      0.0,
+      16.0
+    ]
+  ],
+  "summary_hex": "02080000000000000000000000000000000000000000000000000000000000001900e70400000000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

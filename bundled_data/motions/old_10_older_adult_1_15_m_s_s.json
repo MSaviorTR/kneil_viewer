@@ -1,0 +1,33 @@
+{
+  "cache_ver": "kneil_viewer 1.5",
+  "id": "old_10_older_adult_1_15_m_s_s",
+  "name": "Older adult 1.15 m/s (subject 22, SPPB 12.0)",
+  "source": "old viewer",
+  "group": "Real older adults: Caicedo et al. 2020 (markers, virtual implant)",
+  "cond": "Real older adult: subject 22 (58.0 years, SPPB 12.0) walking at 1.15 m/s (Caicedo et al. 2020). Motion from Vicon markers (hip centres from pelvis width, knee and ankle centres from the measured widths). Implant signal computed 3 cm below the right knee centre, device frame. Strips under the activity band: what the on-device model says each second, as deployed ('chip now') and with V2 ('chip V2', trained without this person). Trunk and arms are drawn for orientation only.",
+  "in_sample": true,
+  "in_sample_label": "training data (in-sample: Caicedo)",
+  "env": {
+    "type": "floor",
+    "floor": -0.016029513026266685
+  },
+  "geom": {
+    "femur": 0.3818730155408807,
+    "tibia": 0.3340643650421866,
+    "pelvis": 1.2338713585213632,
+    "imu_side": "r"
+  },
+  "dur": 4.5,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "walking",
+      0.0,
+      4.51
+    ]
+  ],
+  "summary_hex": "02080000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

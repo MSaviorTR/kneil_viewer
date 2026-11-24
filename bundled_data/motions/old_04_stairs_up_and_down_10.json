@@ -1,0 +1,102 @@
+{
+  "cache_ver": "kneil_viewer 1.5",
+  "id": "old_04_stairs_up_and_down_10",
+  "name": "Stairs up and down, 10 cm steps: real motion",
+  "source": "old viewer",
+  "group": "Real motion: Camargo et al. 2021, subject AB07 (pipeline v1.3)",
+  "cond": "Real person AB07 (male, 20 y, 1.65 m); motion from the dataset's inverse kinematics, implant signals from pipeline v1.3 (typical person: impact exponent 1.35, stair impacts 0.14x / 0.32x of walking); labels from kinematics. 7 steps of 10.2 cm, tread 32 cm (from foot contacts)",
+  "in_sample": true,
+  "in_sample_label": "training data (in-sample: AB07)",
+  "env": {
+    "type": "stairs",
+    "up": true,
+    "treads": [
+      [
+        -0.8932,
+        0.6922,
+        0.0028
+      ],
+      [
+        0.6922,
+        1.0011,
+        0.1475
+      ],
+      [
+        1.0011,
+        1.2763,
+        0.2527
+      ],
+      [
+        1.2763,
+        1.6049,
+        0.3674
+      ],
+      [
+        1.6049,
+        1.9138,
+        0.4751
+      ],
+      [
+        1.9138,
+        2.263,
+        0.5917
+      ],
+      [
+        2.263,
+        3.7465,
+        0.709
+      ]
+    ],
+    "run": 0.322,
+    "floor": 0.0028447327454543744
+  },
+  "geom": {
+    "femur": 0.4214202178348826,
+    "tibia": 0.3919145314988971,
+    "pelvis": 0.9218950119737271,
+    "imu_side": "r"
+  },
+  "dur": 15.199999809265137,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "walking",
+      0.0,
+      1.42
+    ],
+    [
+      "stairs_up",
+      1.42,
+      5.19
+    ],
+    [
+      "walking",
+      5.19,
+      6.36
+    ],
+    [
+      "standing",
+      6.36,
+      9.19
+    ],
+    [
+      "walking",
+      9.19,
+      10.46
+    ],
+    [
+      "stairs_down",
+      10.46,
+      14.19
+    ],
+    [
+      "walking",
+      14.19,
+      15.21
+    ]
+  ],
+  "summary_hex": "020800000000000000000000000000000000000000000000000000000000000009009c0397030000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 0
+}

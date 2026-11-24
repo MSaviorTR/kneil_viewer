@@ -1,0 +1,77 @@
+{
+  "cache_ver": "kneil_viewer 1.5",
+  "id": "old_36_bed_healthy",
+  "name": "Bed: Healthy older adult",
+  "source": "old viewer",
+  "group": "Synthetic patients (simulator v1.6)",
+  "cond": "M, 72 y, 1.70 m, right knee; bed 49 cm; lies on the right side",
+  "in_sample": true,
+  "in_sample_label": "training data (in-sample: v1.6 sim)",
+  "env": {
+    "type": "bed",
+    "bed": 0.4915786014587496,
+    "floor": 0.0,
+    "x0": -0.964413407821229,
+    "x1": 1.255990609024422,
+    "w": 0.45
+  },
+  "geom": {
+    "femur": 0.44394819517596873,
+    "tibia": 0.4010797925600342,
+    "pelvis": 0.9467903806097331,
+    "imu_side": "r"
+  },
+  "dur": 53.900001525878906,
+  "fs": 50.0,
+  "label_spans": [
+    [
+      "lying_supine",
+      0.0,
+      11.43
+    ],
+    [
+      "rolling",
+      11.43,
+      13.98
+    ],
+    [
+      "lying_side",
+      13.98,
+      24.43
+    ],
+    [
+      "rolling",
+      24.43,
+      27.94
+    ],
+    [
+      "lying_supine",
+      27.94,
+      32.63
+    ],
+    [
+      "sit_up",
+      32.63,
+      35.98
+    ],
+    [
+      "sitting",
+      35.98,
+      44.87
+    ],
+    [
+      "lie_down",
+      44.87,
+      49.08
+    ],
+    [
+      "lying_supine",
+      49.08,
+      53.92
+    ]
+  ],
+  "summary_hex": "02080000000000000000000000000000000000000000000000000000040000000000000000000000",
+  "n_sts_total": 0,
+  "n_s2s_total": 0,
+  "n_bed_total": 4
+}
